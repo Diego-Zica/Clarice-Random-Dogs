@@ -1,0 +1,42 @@
+body {
+  background-color: #ffc801;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#logo-titulo h1 {
+  color: #ffffff;
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+#imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn-img {
+  font-size: 15px;
+  background-color: #ffc801;
+  color: #011923;
+  height: 50px;
+  width: 250px;
+  border-radius: 8px;
+  border: 2px solid #011923;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+}
+
+#btn-img:hover {
+  background-color: #011923;
+  color: #ffc801;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
